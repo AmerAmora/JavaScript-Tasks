@@ -8,4 +8,4 @@ function largest(x,y)
     else
     document.write("numbers are euqal ");
 }
-largest(15,14);
+largest(15,18);
