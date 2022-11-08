@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <select id="font" onchange="font()">
+        <option value="arial">arial</option>
+        <option value="Times">Times New Roman</option>
+        <option value="Lucida">Lucida Console</option>
+      </select>
+      <select id="size" onchange="size1()">
+        <option value="small">12pt</option>
+        <option value="med">20pt</option>
+        <option value="big">30pt</option>
+      </select>
+      <input type="checkbox" id="boldcheck" onchange="boldcheck()">bold
+      <input type="checkbox" id="italiccheck" onchange="italiccheck()">italic
+      <input type="checkbox" id="underlinecheck" onchange="underlinecheck()">udnerline
+      <br>
+      <textarea id="text" style="border:1px solid black; font-family:Arial, Helvetica, sans-serif; font-size: 12px; width: 700px; height: 700px;" >
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam illo, ut minima alias eaque porro! Ea culpa a et porro?
+      </textarea>
+    <script src="Task3.js"> </script>
+</body>
+</html>
