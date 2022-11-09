@@ -3,16 +3,6 @@ document.getElementById("card").style.border="1px solid black"
 document.getElementById("card").style.width="500px"
 document.getElementById("card").style.height="500px"
 document.getElementById("card").style.backgroundColor="gray";
-var name  ;
-var age   ;
-var gender;
-var brief ;
-var uni   ;
-var major ;
-var c   ;
-var java  ;
-var python;
-
 function Info()
 { 
      var name    =document.getElementById("fname").value;
