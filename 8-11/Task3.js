@@ -15,20 +15,9 @@ function font() {
     }
   }
   function size1() {
-    var x = document.getElementById("size").value;
-    switch (x)
-    {
-        case "small":
-        document.getElementById("text").style.fontSize="12px"
-        break;
-        case "med":
-        document.getElementById("text").style.fontSize="20px"
-        break;
-        case "big":
-            document.getElementById("text").style.fontSize="30px"
-            break;
-       
-    }
+    var x = document.getElementById("size").value+"px";
+    document.getElementById("text").style.fontSize=x;
+
   }
 
   function boldcheck(){
